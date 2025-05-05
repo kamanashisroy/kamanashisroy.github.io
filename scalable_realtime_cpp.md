@@ -29,17 +29,26 @@ We can allow thousands of **contexts** (think go-context) in CPP in some array/m
 
 Now to process these context work-flow, in CPP we have **state-machines** that process incoming messages and send/post messages to other services.
 
-We call these event-loops, because in one end we are receiving messages for-ever in a loop. Note that other than this message-queue synchronizations, these workers are totally independent of each other.
+
+#### Event loop 
+We call these event-loops, because in one end we are receiving messages for-ever in a loop.
+Note that other than this message-queue synchronizations, these workers are totally independent of each other.
 
 ![Event Loop](EventLoopWithContext.svg)
 
-How is it realtime?
+#### Event-driven
+
+Our state-machines changes states based on events/messages . 
+
+#### How is it realtime?
 
 - It is realtime because these workers do not wait for each-other.
     - That means whenever there is message in *message-queue*, it handles them immediately.
 - There is no *context-switch* between workers because a group of workers reside in same thread.
 - And a single thread has affinity to same processor, so the it is **cache coherent**.
 - The real-IO using TCP/IP are non-blocking.
+
+We can also call these event-loops as [reactors](https://en.wikipedia.org/wiki/Reactor_pattern).
 
 Let us see these green-thread layout.
 
@@ -50,3 +59,11 @@ This layout gives us good vertical scalablity as the number of thread increases.
 ### How is it better than go-routinge.
 
 TODO
+
+### How to scale?
+
+Now these reactor modules are a group of services with coherence. For scalability or bottle-neck we can move these reactor-modes into different nodes based on our need.
+
+
+
+
