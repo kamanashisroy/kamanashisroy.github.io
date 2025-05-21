@@ -10,7 +10,7 @@ I gained over **15+ years** of experience in design and development ranging from
 
 Provided that I have backend professional experience, I am not afraid of writing Javascript, C\#,Python,Lua(as extension of C backend) for frontend or simulator purposes.
 
-Last year I did a data-science course in UW that covered basic math and tools like **sci-kit** learning. This year 2025, I took part in the geometric [topcoder marathon challenge 60](https://github.com/kamanashisroy/topcoder_challenge_slime_harvester) where I did some parameter tuning in the algorithm.  
+Last year I did a data-science course in UW that covered basic math and tools like **sci-kit** learning. This year 2025, I took part in the geometric [topcoder marathon challenge 60](https://github.com/kamanashisroy/topcoder_challenge_slime_harvester) which reflects the TCP/SCTP window sawtooth optimization and congestion control where I did some parameter tuning in the algorithm. Also please refer to my [dpdk journey](https://github.com/kamanashisroy/reactdpdk) for low-level(L1..L4) data-transmission optimization.  
                
 **PROFESSIONAL EXPERIENCE**
 
@@ -40,7 +40,7 @@ Achievements:
   * Used **compile time C++ parameter validation.**  
   * Forcing  abstraction **API** for **increased consistency and reliability**.   
   * Avoid memory corruption, buffer overflow, pointer-invalidation by using **C++ span and lambda** .  
-* Capture **runtime events** for debugging or **AI analysis**. 
+* Capture **runtime events** for debugging or **AI analysis/telemetry**. 
 
 KAMANASHIS ROY ∙ Page 2 ∙ 641.451.4672 ∙ [kamanashisroy@gmail.com](mailto:kamanashisroy@gmail.com)
 
@@ -51,16 +51,17 @@ Develop and maintain web based **Voice/Video/Screen-share/Text service stack sig
 ***Achievements:***
 
 * Deployed **hash-based static load balancing to ensure mutual exclusion in thread level**  
-* Reduced memory+timer leak and crash by **using unique-pointer and RAII**
+* Reduced memory+timer leak and crash by **using unique-pointer and RAII**  
+* **Analysed/debugged SIP audio call flow end-to-end and visualized audio quality using gstreamer.**
 
-**Technologies:** **C++14**, Python, **JSON, REST**, **WebRTC, SIP, SDP, HTTP, DTLS, Websocket, Message Queue, Event-loop,Protobuf,nginx,microservice**  
+**Technologies:** **C++14**, Python, **JSON, REST**, **WebRTC, SIP, SDP, HTTP, DTLS, Websocket, Message Queue, Event-loop,Protobuf,nginx,microservice**,**gStreamer**  
 **Tools:**Chrome-browser**,** Jira,Jenkins,gcc,gdb,git,Linux,Vim,Satic Analyzer,Valgrind
 
 **General Electric Transportation/Wabtec as Quest Global, Erie, PA, USA** ∙ **7/2016-12/2018**  
 Provides embedded-software services for the locomotive industry.
 
 **Senior software engineer**  
-As a scrum-team member designed, developed and tested **safety-critical** locomotive control protocol features for **automated driving** and positive train control(PTC). Emit error-code based on input or state and supervise based on decision-tree model based on **Physics equation and geo-location**.
+As a scrum-team member designed, developed and tested **safety-critical** locomotive control protocol features for **automated driving**(I-ETMS) and PTC(positive train control). Emit error-code based on input or state and supervise based on decision-tree model based on **Physics equation and geo-location**.
 
 ***Achievements:***
 
@@ -87,11 +88,12 @@ Led design and development of communications technology products, with the goal 
 * Realized strong revenue growth by creating a Symbian VoIP client with a home-grown communication protocol.  
 * Recognized for exceptional contributions with a promotion to Head of R\&D.
 
-**Technologies:** AEL, Aroop, C, C++, Java, LUA, Markdown, PHP, Python, SVG, Vala, Drupal, MySQL, Inkscape, Dia,, X11  
+**Technologies:** AEL, Aroop, C, C++, Java, LUA, Markdown, PHP, Python, SVG, Vala, Drupal, MySQL, Inkscape, Dia, X11,**DPDK**  
 **Toos:** Android, Asterisk, GCC, GDB, GNUMake, Git, Doxygen, Linux, Symbian, VoiP Board
 
 **NOTABLE PROJECTS**
 
+* **ReactDPDK \-** Personal: [https://github.com/kamanashisroy/reactdpdk](https://github.com/kamanashisroy/reactdpdk)  A protocol suite with kernel bypass.   
 * **NginCC \-** Personal: [https://github.com/kamanashisroy/ngincc](https://github.com/kamanashisroy/ngincc) It is event-loop based linux server framework in C++.  
 * **Swig-csv** **\-** Personal: [https://github.com/kamanashisroy/swig](https://github.com/kamanashisroy/swig) It generates csv-metadata out of C++ class/struct. Thus it separates data from code, which is useful in code generation, decoupling modules and in simulation-tools.  
 * **Aroop \-** Synchronousict: [https://github.com/kamanashisroy/aroop](https://github.com/kamanashisroy/aroop) It is a source-to-source compiler.  
