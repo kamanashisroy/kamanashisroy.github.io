@@ -1,6 +1,6 @@
 **KAMANASHIS ROY**  
 641.451.4672 ∙ [kamanashisroy@gmail.com](mailto:kamanashisroy@gmail.com)   
-[leetcode](https://leetcode.com/kamanashisroy/) [github](https://github.com/kamanashisroy) [blogspot](https://miniim.blogspot.com) [Portfolio](https://kamanashisroy.github.io)
+[leetcode](https://leetcode.com/kamanashisroy/) [github](https://github.com/kamanashisroy) [blogspot](https://miniim.blogspot.com) [portfolio](https://kamanashisroy.github.io)  
  [https://github.com/kamanashisroy](https://github.com/kamanashisroy)  
 [https://www.linkedin.com/in/kamanashis-roy-40616412](https://www.linkedin.com/in/kamanashis-roy-40616412)
 
@@ -10,7 +10,7 @@ I gained over **15+ years** of experience in design and development ranging from
 
 Provided that I have backend professional experience, I am not afraid of writing Javascript, C\#,Python,Lua(as extension of C backend) for frontend or simulator purposes.
 
-Last year I did a data-science course in UW that covered basic math and tools like **sci-kit** learning. This year 2025, I took part in the geometric [topcoder marathon challenge 60](https://github.com/kamanashisroy/topcoder_challenge_slime_harvester) which reflects the TCP/SCTP window sawtooth optimization and congestion control where I did some parameter tuning in the algorithm. Also please refer to my [dpdk journey](https://github.com/kamanashisroy/reactdpdk) for low-level(L1..L4) data-transmission optimization.  
+Last year I did a data-science course in UW that covered basic math and tools like **sci-kit** learning. This year 2025, I took part in the geometric [topcoder marathon challenge 60](https://github.com/kamanashisroy/topcoder_challenge_slime_harvester) which reflects the TCP/SCTP window optimization and congestion control where I did some parameter tuning in the algorithm. Also please refer to my [dpdk journey](https://github.com/kamanashisroy/reactdpdk) for low-level(L1..L4) data-transmission optimization.  
                
 **PROFESSIONAL EXPERIENCE**
 
@@ -20,14 +20,14 @@ Provides telecommunication services.
 **Principal software engineer**
 
 **4G 5G Radio Access Network**  
-Develop and maintain realtime 4G 5G infrastructure features where the distributed real-time radio-resource management is done. Developed **automated PhyscellId addressing on top of 3GPP containerized cloud architecture X2/S1/RRC** in a mobility oriented radio network without the usage of GPU. Also worked on neighbor management and load-balancing and other **SON(Self Organizing Network)** features.
+Develop and maintain realtime 4G 5G infrastructure features where the distributed real-time radio-resource management is done. Developed **automated PhyscellId addressing on top of 3GPP containerized cloud architecture X2/S1/RRC** in a mobility oriented radio network without the usage of GPU. Also worked on neighbor management and load-balancing and other **SON(Self Organizing Network** similar to **Software Defined Network)**  features.
 
-**Layer 4/3** **Technologies:** L4/L3 layer S1, X2, RRC protocol,MAC,RLC,Scheduler  
+**Layer 4/3** **Technologies:** SCTP,L4/L3 layer S1, X2, RRC protocol,MAC,RLC,Scheduler,MIMO  
 Language and framework: **C++14,Go**, Python, Lua  
 **Code generation: Python, C++ template**  
-Config and Unit testing: Yang,Yaml,XML,JSON,Whitebox testing,Satic Analyzer,Sanitizer,Valgrind,Code-coverage  
+Config and Unit testing: Yang,Yaml,XML,JSON,Whitebox testing,Static/Dynamic Analyzer,Valgrind,Code-coverage  
 Continuous integration:Jenkins,Kubernetes,k8s, Docker, Helm Chart, Python  
-Debugging: Wireshark, TCMalloc, Command interface to test memory usage and health, Postmortem analysis using **GDB scripts,** KPI analysis,Kafka  
+Debugging: Wireshark, TCMalloc, **GDB scripts,** KPI analysis,Kafka  
 **Tools:** Jira,Jenkins,gcc,gdb,git,Linux,Vim,Klocwork,Sanitizer
 
 Achievements:
@@ -35,12 +35,13 @@ Achievements:
 * **Automated network addressing** in distributed radio network cloud with **mobility** while avoiding network loop  
 * Decoupled L3/L4 into container/cloud architecture along with **gRpc Services.**  
 * Used persistent interface **Protobuf** between components to allow change while develop/deployment.  
-  * Optimizing network via encapsulation and packaging  
 * Convert legacy C code to RAII based C++ code **for increased stability and extensibility .**  
   * Used **compile time C++ parameter validation.**  
   * Forcing  abstraction **API** for **increased consistency and reliability**.   
-  * Avoid memory corruption, buffer overflow, pointer-invalidation by using **C++ span and lambda** .  
-* Capture **runtime events** for debugging or **AI analysis/telemetry**. 
+  * Avoid memory corruption, buffer overflow, pointer-invalidation,circular linked-list  
+    *  by using **C++ span and lambda** .  
+* Capture **runtime events** for debugging or **AI analysis/telemetry/kafka**.   
+* Develop **memory profiler** and in memory **protocol dissector**, generate **pcap** from coredump.
 
 KAMANASHIS ROY ∙ Page 2 ∙ 641.451.4672 ∙ [kamanashisroy@gmail.com](mailto:kamanashisroy@gmail.com)
 
@@ -72,7 +73,7 @@ As a scrum-team member designed, developed and tested **safety-critical** locomo
 * Optimized message-queue for OS Performance.
 
 **Technologies:** **Embedded C/C++**, C\#, Python, **Real-time,** **Shared-memory**, Message-passing, TCP/IP, **MISRA**  
-**Tools:** IBM rational, Jenkins, Perforce, Doxygen, Visual-studio(for simulator), LDRA(unit-testing), Qnx (**RTOS**), Linux, Makefile, Bash
+**Tools:** IBM rational, Jenkins, Perforce, Doxygen, Visual-studio(for simulator), LDRA(unit-testing), Qnx (**RTOS**), Linux, Makefile, Bash,Bison,Yacc,Flex
 
 **SYNCHRONOUS ICT, Dhaka, Bangladesh** ∙ **2010-2015**  
 Developers of innovative, groundbreaking communications technology, software, and equipment.
