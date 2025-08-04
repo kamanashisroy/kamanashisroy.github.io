@@ -5,6 +5,11 @@
 - Data structure
     - [How to avoid pointer invalidation in C/C++](how_to_make_a_python_style_list_in_cpp.md)
     - [Linear probing in C/C++](https://github.com/kamanashisroy/reactdpdk/blob/main/core/fixedtable.hxx)
+    - [Balanced binary-tree](https://github.com/kamanashisroy/algosnippet/blob/master/data_structure/tree/avltree/python/avl_tree.py)
     - Putting a [C++ based reference-counted garbage collection](https://github.com/kamanashisroy/reactdpdk/blob/main/core/buffer.hxx) auto-pointer on top of legacy DPDK `rte_mbuf`.
 - Design pattern
     - [State machine](https://github.com/kamanashisroy/reactdpdk/blob/main/tcp/tcp_plugin.cc)
+    - Marshalling
+        - [Pull-parser](https://sourceforge.net/p/miniim/code/HEAD/tree/trunk/src/main/java/net/ayaslive/miniim/plugins/xmpp/XMPPInputStream.java#l185)
+        - [Visitor-pattern](https://github.com/kamanashisroy/aroop/blob/master/codegenplug/generator/aroopcodegenerator.vala)
+        - [C Reflection](https://github.com/swig/swig/compare/master...kamanashisroy:swig:master)
